@@ -1,6 +1,6 @@
 /*
-Author:
-Title:
+Author: Alejandro and Ashley
+Title: Enemy
 Description: specification of the class Enemy
 Date Created: 11-29-2018
 Date Last Modified: 11-29-2018
