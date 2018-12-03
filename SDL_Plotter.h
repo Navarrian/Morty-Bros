@@ -3,7 +3,7 @@
  *
  *  Created on: Jun 13, 2016
  *      Author: booth
- *	Modified: Alejandro Navarro
+ *	Modified: Alejandro Navarro and Will Norton
  */
 
 #ifndef SDL_PLOTTER_H_
@@ -105,7 +105,7 @@ public:
         memset(pixels, WHITE, col * row * sizeof(Uint32));
 
         //SOUND Thread Pool
-        Mix_OpenAudio( 22050, MIX_DEFAULT_FORMAT, 2, 1024);
+        Mix_OpenAudio( 22050, MIX_DEFAULT_FORMAT, 2, 1024);//Modified: change of audio settings by Will Norton
         soundCount = 0;
 
       }
