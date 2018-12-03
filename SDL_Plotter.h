@@ -3,6 +3,7 @@
  *
  *  Created on: Jun 13, 2016
  *      Author: booth
+ *	Modified: Alejandro Navarro
  */
 
 #ifndef SDL_PLOTTER_H_
@@ -246,7 +247,8 @@ public:
     void Sleep(int ms){
     	SDL_Delay(ms);
     }
-
+    
+    //Modified: loadImage() addition to SDL_Plotter.h by Alejandro
     SDL_Surface* loadImage(string imagename)
     {
 
@@ -262,7 +264,8 @@ public:
 
       return finalImage;
     }
-
+    
+    //Modified: displayImage() addition to SDL_Plotter.h by Alejandro
     void displayImage(SDL_Surface* image, int x, int y)
     {
       Uint32 *pixs = (Uint32 *)image->pixels;
