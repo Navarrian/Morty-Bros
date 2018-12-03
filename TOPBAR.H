@@ -1,5 +1,5 @@
 /*
-Author: Ashley
+Author: Alejandro and Ashley
 Title: Player
 Description: implementation of the class Player
 Date Created: 11-20-2018
