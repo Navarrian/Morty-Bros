@@ -3,7 +3,7 @@
  *
  *  Created on: Jun 13, 2016
  *      Author: booth
- *	Modified: Alejandro Navarro and Will Norton
+ *	Modified by: Alejandro Navarro and Will Norton
  */
 
 #ifndef SDL_PLOTTER_H_
